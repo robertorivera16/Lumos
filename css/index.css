@@ -1,0 +1,70 @@
+body{
+	font-family: Noticia Text;
+	background-color: #e9ecef;
+
+}
+.navbar-nav{
+	font-size: 2.9vmin;
+	position: relative;
+	top: 4.1px;
+}
+
+.navbar-brand {
+	font-family: Playfair Display;
+	font-size: 6vmin;
+}
+
+.carousel-indicators li{
+	background-color: #9FCAE4;
+}
+
+.carousel-indicators .active{
+	background-color: #478AB2;
+}
+
+.noticia{
+	margin-top: 15px;
+	padding-left: 10px;
+	border-left: 2.5px solid #E79D00;
+	margin-left: 8px;
+}
+
+.noticia-text-content{
+	font-size: 2.5vmin;
+	font-family: Noticia Text;
+}
+
+.noticia-text-title{
+	font-size: 6vmin;
+}
+
+
+.cimage{
+	width: 100%;	
+}
+
+.p-img{
+	width: 25vmin;
+}
+
+.carousel-item .row{
+	height: 45vmin;
+}
+
+.headline{
+	width: 100%;
+}
+
+.overview-img{
+	width: 100%;
+}
+
+.title-text{
+	font-family: Playfair Display;
+}
+
+.content-text{
+	font-family: Noticia Text;
+	font-size: 2.5vmin;
+}
+
