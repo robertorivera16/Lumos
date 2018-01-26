@@ -8,6 +8,13 @@ $(document).ready(function(){
             $('#p-motivation').addClass('magictime boingInUp'); 
 
         }
+        if ($('#p-about').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#p-about').removeClass('invisible'); 
+            $('#p-about').addClass('magictime boingInUp'); 
+
+        }
         
         if ($('#features').isOnScreen()) {
             // The element is visible, do something
