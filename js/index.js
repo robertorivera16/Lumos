@@ -5,7 +5,7 @@ $(document).ready(function(){
             // The element is visible, do something
             
             $('#p-motivation').removeClass('invisible'); 
-            $('#p-motivation').addClass('magictime spaceInLeft'); 
+            $('#p-motivation').addClass('magictime boingInUp'); 
 
         }
         
