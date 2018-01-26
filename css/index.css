@@ -1,70 +1,48 @@
 body{
-	font-family: Noticia Text;
-	background-color: #e9ecef;
-
-}
-.navbar-nav{
-	font-size: 2.9vmin;
-	position: relative;
-	top: 4.1px;
+	font-family: Open Sans;
 }
 
-.navbar-brand {
-	font-family: Playfair Display;
-	font-size: 6vmin;
+#header{
+	background: url(https://image.ibb.co/kWK1Rw/main_900.jpg);
+	background-size: cover;
+	background-position: 0px -200px;
+	width: auto;
+	height: 50vmin;
 }
 
-.carousel-indicators li{
-	background-color: #9FCAE4;
+.content{
+	padding-top: 3%;
+	color: white;
+	text-align: center;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
 }
 
-.carousel-indicators .active{
-	background-color: #478AB2;
+.title-color{
+	color: #257059;
 }
 
-.noticia{
-	margin-top: 15px;
-	padding-left: 10px;
-	border-left: 2.5px solid #E79D00;
-	margin-left: 8px;
-}
-
-.noticia-text-content{
-	font-size: 2.5vmin;
-	font-family: Noticia Text;
-}
-
-.noticia-text-title{
-	font-size: 6vmin;
-}
-
-
-.cimage{
-	width: 100%;	
-}
-
-.p-img{
-	width: 25vmin;
-}
-
-.carousel-item .row{
-	height: 45vmin;
-}
-
-.headline{
-	width: 100%;
-}
-
-.overview-img{
-	width: 100%;
+.my-2{
+	border-top-color: #27566B;
+	border-width: 1px;
 }
 
 .title-text{
 	font-family: Playfair Display;
+	font-size: 7vmin;
 }
 
 .content-text{
-	font-family: Noticia Text;
-	font-size: 2.5vmin;
+	font-family: Open Sans;
+	font-size: 3vmin;
+}
+
+.top-space{
+	padding-top: 3%;
+}
+
+.features-text{
+	font-size: 3vmin;
 }
 

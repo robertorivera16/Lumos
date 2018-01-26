@@ -1,27 +1,35 @@
 $(document).ready(function(){
    
     $(window).scroll(function(){
-        if ($('#bio1').isOnScreen()) {
+        if ($('#p-motivation').isOnScreen()) {
             // The element is visible, do something
             
-            $('#bio1').removeClass('invisible'); 
-            $('#bio1').addClass('magictime swashIn'); 
+            $('#p-motivation').removeClass('invisible'); 
+            $('#p-motivation').addClass('magictime spaceInLeft'); 
 
         }
-        if ($('#bio2').isOnScreen()) {
+        
+        if ($('#features').isOnScreen()) {
             // The element is visible, do something
             
-            
-            $('#bio2').removeClass('invisible'); 
-            $('#bio2').addClass('magictime swashIn'); 
-        } 
-        if ($('#bio3').isOnScreen()) {
+            $('#features').removeClass('invisible'); 
+            $('#features').addClass('magictime boingInUp'); 
+
+        }
+        if ($('#features1').isOnScreen()) {
             // The element is visible, do something
             
+            $('#features1').removeClass('invisible'); 
+            $('#features1').addClass('magictime boingInUp'); 
+
+        }
+        if ($('#features2').isOnScreen()) {
+            // The element is visible, do something
             
-            $('#bio3').removeClass('invisible'); 
-            $('#bio3').addClass('magictime swashIn'); 
-        } 
+            $('#features2').removeClass('invisible'); 
+            $('#features2').addClass('magictime boingInUp'); 
+
+        }
          
     });
 });
