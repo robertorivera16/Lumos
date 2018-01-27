@@ -5,14 +5,21 @@ $(document).ready(function(){
             // The element is visible, do something
             
             $('#p-motivation').removeClass('invisible'); 
-            $('#p-motivation').addClass('magictime boingInUp'); 
+            $('#p-motivation').addClass('magictime spaceInLeft'); 
 
         }
         if ($('#p-about').isOnScreen()) {
             // The element is visible, do something
             
             $('#p-about').removeClass('invisible'); 
-            $('#p-about').addClass('magictime boingInUp'); 
+            $('#p-about').addClass('magictime spaceInRight'); 
+
+        }
+        if ($('#p-approach').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#p-approach').removeClass('invisible'); 
+            $('#p-approach').addClass('magictime spaceInLeft'); 
 
         }
         
@@ -35,6 +42,48 @@ $(document).ready(function(){
             
             $('#features2').removeClass('invisible'); 
             $('#features2').addClass('magictime boingInUp'); 
+
+        }
+        if ($('#pdf1').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#pdf1').removeClass('invisible'); 
+            $('#pdf1').addClass('magictime boingInUp'); 
+
+        }
+        if ($('#pdf2').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#pdf2').removeClass('invisible'); 
+            $('#pdf2').addClass('magictime boingInUp'); 
+
+        }
+        if ($('#p1').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#p1').removeClass('invisible'); 
+            $('#p1').addClass('magictime spaceInDown'); 
+
+        }
+        if ($('#p2').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#p2').removeClass('invisible'); 
+            $('#p2').addClass('magictime spaceInDown'); 
+
+        }
+        if ($('#p3').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#p3').removeClass('invisible'); 
+            $('#p3').addClass('magictime spaceInDown'); 
+
+        }
+        if ($('#p4').isOnScreen()) {
+            // The element is visible, do something
+            
+            $('#p4').removeClass('invisible'); 
+            $('#p4').addClass('magictime spaceInDown'); 
 
         }
          

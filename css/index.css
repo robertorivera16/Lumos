@@ -3,9 +3,9 @@ body{
 }
 
 #header{
-	background: url(https://image.ibb.co/kWK1Rw/main_900.jpg);
+	background: url(https://image.ibb.co/n7Z9ww/h4.jpg);
 	background-size: cover;
-	background-position: 0px -200px;
+	background-position: 0px -500px;
 	width: auto;
 	height: 50vmin;
 }
@@ -15,17 +15,30 @@ body{
 	color: white;
 	text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                 0px 8px 13px rgba(0,0,0,0.1),
-                 0px 18px 23px rgba(0,0,0,0.1);
+                 0px 8px 13px rgba(0,0,0,0.4),
+                 0px 18px 23px rgba(0,0,0,0.4);
+}
+
+.pdf_icon{
+	width: 15vmin;
 }
 
 .title-color{
 	color: #257059;
 }
 
+.team_img{
+	width: 35vmin;
+}
+
 .my-2{
 	border-top-color: #27566B;
 	border-width: 1px;
+}
+
+.footer{
+	padding-top: 0.2%;
+	padding-bottom: 5%;
 }
 
 .title-text{
@@ -44,5 +57,10 @@ body{
 
 .features-text{
 	font-size: 3vmin;
+}
+
+.team-text{
+	font-family: Montserrat;
+	font-size: 3.5vmin;
 }
 
