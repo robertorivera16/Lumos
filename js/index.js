@@ -99,7 +99,7 @@ $.fn.isOnScreen = function(){
         left : win.scrollLeft()
     };
     viewport.right = viewport.left + win.width();
-    viewport.bottom = viewport.top + win.height() + -100;
+    viewport.bottom = viewport.top + win.height() + -200;
     
     var bounds = this.offset();
     bounds.right = bounds.left + this.outerWidth();
